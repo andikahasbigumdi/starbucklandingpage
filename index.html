@@ -18,13 +18,13 @@
         </div>
         <ul class="navbar-nav-left">
           <li>
-            <a href="#">Menu</a>
+            <a href="#navmenu">Menu</a>
           </li>
           <li>
-            <a href="#">Rewards</a>
+            <a href="#navreward">Rewards</a>
           </li>
           <li>
-            <a href="#">Gift Cards</a>
+            <a href="#navgifcards">Gift Cards</a>
           </li>
         </ul>
         <ul class="navbar-nav-right">
@@ -49,19 +49,28 @@
     <!-- End Navbar  -->
 
     <!-- Start Mobile Menu  -->
-    <div class="mobil-menu" id="menu">
+    <div class="mobile-menu hidden" id="menu">
       <ul>
         <li>
-          <a href="#">Menu</a>
+          <a href="#navmenu">Menu</a>
         </li>
         <li>
-          <a href="#">Rewards</a>
+          <a href="#navreward">Rewards</a>
         </li>
         <li>
-          <a href="#">Gift Cards</a>
+          <a href="#navgifcards">Gift Cards</a>
         </li>
       </ul>
-      <div class="mobile-menu-button"></div>
+      <div class="mobile-menu-button">
+        <button class="btn btn-dark-outline">Sign in</button>
+        <button class="btn btn-dark">Join Now</button>
+        <div>
+          <a href="#">
+            <img src="./Img/marker.svg" alt="marker" />
+            <span>Find a store</span>
+          </a>
+        </div>
+      </div>
     </div>
     <!-- End  Mobile Menu  -->
 
@@ -78,7 +87,7 @@
     <!-- End BOX A  -->
 
     <!-- Start BOX B  -->
-    <section class="box box-b bg-secondary grid-col-2">
+    <section class="box box-b bg-secondary grid-col-2" id="navmenu">
       <img src="Img/box-b.png" alt="Image Box B" class="img-wid" />
       <div class="box-text">
         <h2 class="text-xl">New to the nice list</h2>
@@ -100,7 +109,7 @@
     <!-- End BOX C  -->
 
     <!-- Start BOX D  -->
-    <section class="box box-d bg-primary grid-col-2 grid-reverse">
+    <section class="box box-d bg-primary grid-col-2 grid-reverse" id="navreward">
       <img src="Img/box-d.png" alt="Image Box B" class="img-wid" />
       <div class="box-text">
         <h2 class="text-xl">Natal and New Year Moment</h2>
@@ -122,7 +131,7 @@
     <!-- End BOX E  -->
 
     <!-- Start Box F  -->
-    <section class="box box-f grid-col-2 bg-primary">
+    <section class="box box-f grid-col-2 bg-primary" id="navgifcards">
       <div class="divf1">
         <img src="img/box-f1.jpg" alt="" />
         <div class="bg-extra py-lg">
